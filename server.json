@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.warppay402/warppay402-mcp",
+  "description": "28 Monetized Web3 AI developer tools, PDF extraction, and smart contract execution engine via x402.",
+  "status": "active",
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://api.warppay402.com/mcp"
+    }
+  ],
+  "version": "1.0.0"
+}
