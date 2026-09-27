@@ -1,13 +1,18 @@
 {
-  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/registry/main/docs/reference/server-json/generic-server-json.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.warppay402/warppay-mcp",
+  "title": "WarpPay402 MCP Gateway",
   "description": "Ultra-low-cost pay-per-use AI developer tools monetized via x402 micro-payments on Base Mainnet, Solana, Arbitrum One, and Arc Mainnet (USDC).",
   "version": "1.0.0",
+  "websiteUrl": "https://www.warppay402.com",
+  "repository": {
+    "url": "https://github.com/Warppay402/warppay-mcp",
+    "source": "github"
+  },
   "transports": [
     {
       "type": "sse",
       "url": "https://api.warppay402.com/mcp?v=2"
     }
-  ],
-  "websiteUrl": "https://www.warppay402.com"
+  ]
 }
