@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Publish to MCP Registry
-        uses: modelcontextprotocol/registry/action@v1
+        uses: modelcontextprotocol/registry@main
