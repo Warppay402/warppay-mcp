@@ -16,5 +16,21 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Publish to MCP Registry
-        uses: modelcontextprotocol/registry@main
+      - name: Download MCP Publisher CLI
+        run: |
+          curl -sSL https://raw.githubusercontent.com/modelcontextprotocol/registry/main/scripts/install-publisher.sh | bash || true
+          if ! command -v mcp-publisher &> /dev/null; then
+            echo "Installing via binary fallback..."
+            curl -L https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher-linux-amd64 -o /usr/local/bin/mcp-publisher || true
+            chmod +x /usr/local/bin/mcp-publisher || true
+          fi
+
+      - name: Publish Server Manifest via GitHub OIDC
+        uses: OtherVibes/mcp-publish-action@v1
+        with:
+          name: io.github.warppay402/warppay-mcp
+          description: "Ultra-low-cost pay-per-use AI tools monetized via x402 USDC micropayments"
+          version: ${{ github.ref_name }}
+          transport_type: sse
+          transport_url: https://api.warppay402.com/mcp?v=2
+          website_url: https://www.warppay402.com
