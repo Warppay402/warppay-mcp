@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-  "name": "io.github.warppay402/warppay-mcp",
+  "name": "io.github.Warppay402/warppay-mcp",
   "title": "WarpPay402 MCP Gateway",
   "description": "Pay-per-use AI tools monetized via x402 USDC micropayments on Base, Solana, and Arc.",
   "version": "1.0.0",
