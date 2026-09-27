@@ -2,10 +2,9 @@ name: Sync Remote Server with MCP Registry
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "server.json"
+    tags:
+      - 'v*'
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -14,8 +13,8 @@ jobs:
       id-token: write
       contents: read
     steps:
-      - uses: actions/checkout@v4
-      - name: Publish Remote SSE Entry
-        uses: modelcontextprotocol/registry-action@v1
-        with:
-          manifest: "server.json"
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Publish to MCP Registry
+        uses: modelcontextprotocol/registry/action@v1
