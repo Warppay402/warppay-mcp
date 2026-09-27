@@ -1,13 +1,13 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/registry/main/docs/reference/server-json/generic-server-json.schema.json",
   "name": "io.github.warppay402/warppay-mcp",
-  "description": "28 Monetized Web3 AI developer tools, PDF extraction, and smart contract execution engine via x402.",
-  "status": "active",
-  "remotes": [
+  "description": "Ultra-low-cost pay-per-use AI developer tools monetized via x402 micro-payments on Base Mainnet, Solana, Arbitrum One, and Arc Mainnet (USDC).",
+  "version": "1.0.0",
+  "transports": [
     {
       "type": "sse",
-      "url": "https://api.warppay402.com/mcp"
+      "url": "https://api.warppay402.com/mcp?v=2"
     }
   ],
-  "version": "1.0.0"
+  "websiteUrl": "https://www.warppay402.com"
 }
