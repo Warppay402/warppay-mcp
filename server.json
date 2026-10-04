@@ -3,7 +3,7 @@
   "name": "io.github.Warppay402/warppay-mcp",
   "title": "WarpPay402 MCP Gateway",
   "description": "Pay-per-use AI tools monetized via x402 USDC micropayments on Base, Solana, and Arc.",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "websiteUrl": "https://www.warppay402.com",
   "repository": {
     "url": "https://github.com/Warppay402/warppay-mcp",
