@@ -50,7 +50,6 @@ This remote gateway provides AI agents with low-cost, pay-per-use tools monetize
 25. **`property_comps_estimator`**: Property tax assessor and valuation comps estimator.
 26. **`public_data_feed`**: Raw signed attestation JSON record feeds ($0.0001 USDC).
 27. **`data_feeds`**: Pre-scraped AI intelligence reports ($0.001 USDC).
-28. **`x402_telemetry_feed`**: Public on-chain settlement proofs and uptime telemetry (Free).
 
 ---
 
