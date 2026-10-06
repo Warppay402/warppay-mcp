@@ -35,6 +35,9 @@
     },
     "build": {
       "openclawVersion": ">=1.0.0"
-    }
+    },
+    "extensions": [
+      "./server.json"
+    ]
   }
 }
