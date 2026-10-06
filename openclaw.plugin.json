@@ -5,5 +5,10 @@
   "description": "Remote SSE Gateway exposing 28 monetized Web3 AI developer tools via x402 USDC micropayments.",
   "type": "remote-mcp",
   "endpoint": "https://api.warppay402.com/mcp?v=2",
-  "transport": "sse"
+  "transport": "sse",
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
 }
