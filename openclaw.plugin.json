@@ -1,0 +1,8 @@
+{
+  "name": "warppay402-mcp",
+  "version": "1.0.13",
+  "description": "Remote SSE Gateway exposing 28 monetized Web3 AI developer tools via x402 USDC micropayments.",
+  "type": "remote-mcp",
+  "endpoint": "https://api.warppay402.com/mcp?v=2",
+  "transport": "sse"
+}
