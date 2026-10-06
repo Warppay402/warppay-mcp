@@ -28,5 +28,13 @@
   "bugs": {
     "url": "https://github.com/Warppay402/warppay-mcp/issues"
   },
-  "homepage": "https://www.warppay402.com"
+  "homepage": "https://www.warppay402.com",
+  "openclaw": {
+    "compat": {
+      "pluginApi": "^1.0.0"
+    },
+    "build": {
+      "openclawVersion": ">=1.0.0"
+    }
+  }
 }
