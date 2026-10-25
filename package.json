@@ -1,7 +1,7 @@
 {
   "name": "warppay402-mcp",
-  "version": "1.0.13",
-  "description": "Remote Model Context Protocol (MCP) SSE Gateway exposing 28 monetized Web3 AI developer tools, PDF extractors, web scrapers, Aerodrome LP/swaps, and smart contract factories monetized via x402 USDC micropayments across Base Mainnet (EIP-155:8453), Solana Mainnet (SPL USDC), Arbitrum One (EIP-155:42161), and Arc Mainnet (EIP-155:5042).",
+  "version": "1.0.14",
+  "description": "Remote Model Context Protocol (MCP) SSE Gateway exposing 29 monetized Web3 AI developer tools, PDF extractors, web scrapers, Aerodrome LP/swaps, and smart contract factories monetized via x402 USDC micropayments across Base Mainnet (EIP-155:8453), Solana Mainnet (SPL USDC), Arbitrum One (EIP-155:42161), and Arc Mainnet (EIP-155:5042).",
   "main": "server.json",
   "type": "module",
   "scripts": {
