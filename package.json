@@ -1,6 +1,6 @@
 {
   "name": "warppay402-mcp",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Remote Model Context Protocol (MCP) SSE & Streamable HTTP Gateway exposing stateless autonomous multi-agent workflows and 31 pay-per-use AI & Web3 developer tools monetized via x402 USDC micropayments across Base Mainnet (EIP-155:8453), Robinhood Chain (EIP-155:4663), Solana Mainnet (SPL USDC), Arbitrum One (EIP-155:42161), and Arc Mainnet (EIP-155:5042).",
   "main": "server.json",
   "type": "module",

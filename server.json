@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.Warppay402/warppay-mcp",
   "title": "WarpPay402 MCP Gateway",
-  "description": "Stateless multi-agent autonomous gateway and pay-per-use AI tools monetized via x402 USDC micropayments across Base, Solana, Arbitrum, Robinhood, and Arc.",
-  "version": "1.1.0",
+  "description": "Stateless multi-agent gateway and pay-per-use AI tools via x402 USDC on Base, Solana, and Arc.",
+  "version": "1.1.1",
   "websiteUrl": "https://www.warppay402.com",
   "repository": {
     "url": "https://github.com/Warppay402/warppay-mcp",
